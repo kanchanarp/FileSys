@@ -31,10 +31,10 @@ public class CMain {
             System.out.println("Error");
         }
         
-      //System.out.println(new java.io.File("").getAbsolutePath()+"\\ProcessedSample2.bmp");
-    //CEntityForm classFormMain = new CEntityForm();
-    //classFormMain.setSize(800,800);
-    //classFormMain.setVisible(true);
+        System.out.println(new java.io.File("").getAbsolutePath()+"\\ProcessedSample2.bmp");
+        CEntityForm classFormMain = new CEntityForm();
+        classFormMain.setSize(800,800);
+        classFormMain.setVisible(true);
 
   }
 }
