@@ -1,4 +1,4 @@
-package ge.vakho.pdf_viewer;
+package pdfViewer;
 
 import java.awt.Paint;
 import java.io.IOException;
