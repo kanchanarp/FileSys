@@ -13,9 +13,9 @@ public class SecurityLevel {
     private String lblLevel;
     private SecurityLevel upLevel;
     private SecurityLevel downLevel;
-    public SecurityLevel(String lblLevel,SecurityLevel upLevel,SecurityLevel downLevel){
+    public SecurityLevel(String lblLevel,SecurityLevel downLevel){
         this.lblLevel = lblLevel;
-        this.upLevel = upLevel;
+        //this.upLevel = upLevel;
         this.downLevel = downLevel;
     }
 

@@ -6,6 +6,7 @@ import java.awt.event.*;
 import javax.swing.event.*;
 import Biometrics.CFingerPrint;
 import Biometrics.CFingerPrintGraphics;
+import accessControl.ClUser;
 import java.awt.image.*;
 import javax.imageio.*;
 import java.io.File;
@@ -68,6 +69,7 @@ public class CEntityForm extends JFrame {
   private ArrayList<CFingerPrint> m_finger=new ArrayList<CFingerPrint>();
   private ArrayList<BufferedImage> m_bimage=new ArrayList<BufferedImage>();
   private ArrayList<double[]> finger=new ArrayList<double[]>();
+  private ArrayList<ClUser> userList=new ArrayList<ClUser>();
   public CEntityForm() {
    jButtonStep1.addActionListener(new java.awt.event.ActionListener() {
       public void actionPerformed(ActionEvent e) {
